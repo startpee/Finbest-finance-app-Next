@@ -1296,22 +1296,30 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-hero {
+              height: 578px;
+            }
             .home-content {
+              display: none;
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .home-title {
+              display: none;
               font-size: 33px;
               font-style: normal;
               margin-top: var(--dl-space-space-unit);
               font-family: Poppins;
               font-weight: 600;
               line-height: 55px;
+              border-radius: var(--dl-radius-radius-radius8);
               margin-bottom: var(--dl-space-space-unit);
-              background-color: #d9d9d9;
+              background-color: #c97707;
             }
             .home-images {
+              width: 360px;
               bottom: -300px;
+              height: 1460px;
               margin: var(--dl-space-space-oneandhalfunits);
             }
             .home-pasted-image {
