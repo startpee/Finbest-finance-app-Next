@@ -406,11 +406,19 @@ const Home = (props) => {
                 </div>
               </a>
               <a
-                href="https://blog.sabedoriajovem.site/"
+                href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
                 className="home-link3"
               >
+                <div className="home-i-o-s-btn1">
+                  <span className="home-caption4">Youtube</span>
+                </div>
+              </a>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="home-link4"
+              >
                 <div className="home-android-btn">
-                  <span className="home-caption4">Blog</span>
+                  <span className="home-caption5">Blog</span>
                 </div>
               </a>
             </div>
@@ -1089,6 +1097,35 @@ const Home = (props) => {
           .home-link3 {
             display: contents;
           }
+          .home-i-o-s-btn1 {
+            gap: var(--dl-space-space-halfunit);
+            fill: white;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            justify-content: center;
+            text-decoration: none;
+            background-color: #000000;
+          }
+          .home-i-o-s-btn1:hover {
+            background-color: rgba(0, 0, 0, 0.75);
+          }
+          .home-caption4 {
+            font-style: normal;
+            font-family: Poppins;
+            font-weight: 500;
+          }
+          .home-link4 {
+            display: contents;
+          }
           .home-android-btn {
             gap: var(--dl-space-space-halfunit);
             fill: white;
@@ -1110,7 +1147,7 @@ const Home = (props) => {
           .home-android-btn:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-caption4 {
+          .home-caption5 {
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
@@ -1381,10 +1418,13 @@ const Home = (props) => {
             .home-i-o-s-btn {
               width: 100%;
             }
+            .home-i-o-s-btn1 {
+              width: 100%;
+            }
             .home-android-btn {
               width: 100%;
             }
-            .home-caption4 {
+            .home-caption5 {
               font-style: normal;
               font-family: Poppins;
               font-weight: 500;
