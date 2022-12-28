@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
@@ -25,14 +24,16 @@ const Home = (props) => {
         <div className="home-header">
           <div className="home-heading">
             <div id="notifcation" className="home-notification">
-              <Link href="/">
-                <a>
-                  <Announcement
-                    rootClassName="announcement-root-class-name"
-                    className="home-component"
-                  ></Announcement>
-                </a>
-              </Link>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Announcement
+                  rootClassName="announcement-root-class-name"
+                  className="home-component"
+                ></Announcement>
+              </a>
             </div>
             <Navbar></Navbar>
           </div>
