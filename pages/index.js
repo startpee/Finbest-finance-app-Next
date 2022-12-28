@@ -154,13 +154,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-sections"></div>
-        <div className="home-banner-container"></div>
         <div className="home-pricing">
-          <div className="home-content2">
-            <div className="home-plans">
-              <div className="home-expand"></div>
-            </div>
-          </div>
           <div className="home-help">
             <span className="home-text02">precisa de ajuda?</span>
             <div className="home-explore1">
@@ -178,7 +172,7 @@ const Home = (props) => {
               className="home-logo"
             />
           </div>
-          <div className="home-content3">
+          <div className="home-content2">
             <div id="quotes" className="home-quotes">
               <div className="quote active-quote">
                 <Quote rootClassName="quote-root-class-name"></Quote>
@@ -248,7 +242,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-f-a-q">
-          <div className="home-content4">
+          <div className="home-content3">
             <div className="home-header2">
               <div className="home-tag">
                 <span className="home-text04">
@@ -400,7 +394,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-get-started">
-          <div className="home-content5">
+          <div className="home-content4">
             <div className="home-heading3">
               <h2 className="home-text14">Nos acompanhe!</h2>
               <span className="home-text15">conselhos para jovens </span>
@@ -803,15 +797,6 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
           }
-          .home-banner-container {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
-            flex-direction: column;
-          }
           .home-pricing {
             width: 100%;
             display: flex;
@@ -823,30 +808,6 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #f3f5fa;
-          }
-          .home-content2 {
-            gap: var(--dl-space-space-fiveunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-plans {
-            width: 100%;
-            height: 100%;
-            display: none;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-expand {
-            flex: 0.3;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: space-between;
           }
           .home-help {
             gap: var(--dl-space-space-halfunit);
@@ -901,7 +862,7 @@ const Home = (props) => {
             width: 25px;
             height: 24px;
           }
-          .home-content3 {
+          .home-content2 {
             display: flex;
             position: relative;
             align-items: stretch;
@@ -975,7 +936,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #f3f5fa;
           }
-          .home-content4 {
+          .home-content3 {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
             display: flex;
@@ -1125,7 +1086,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #c97707;
           }
-          .home-content5 {
+          .home-content4 {
             gap: var(--dl-space-space-threeunits);
             display: flex;
             max-width: 600px;
@@ -1306,14 +1267,11 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-content2 {
-              gap: var(--dl-space-space-threeunits);
-            }
             .home-get-started {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-content5 {
+            .home-content4 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
             .home-heading3 {
@@ -1370,16 +1328,6 @@ const Home = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
-            .home-plans {
-              gap: var(--dl-space-space-oneandhalfunits);
-              display: flex;
-            }
-            .home-expand {
-              flex: 0 0 auto;
-              width: 100%;
-              border-radius: 16px;
-              background-color: #375ee0;
-            }
             .home-testimonials {
               width: 100%;
               padding-top: var(--dl-space-space-threeunits);
@@ -1402,7 +1350,7 @@ const Home = (props) => {
             .home-f-a-q {
               width: 100%;
             }
-            .home-content4 {
+            .home-content3 {
               gap: var(--dl-space-space-twounits);
             }
             .home-text04 {
@@ -1423,6 +1371,10 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-content {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
             .home-title {
               font-size: 33px;
               font-style: normal;
@@ -1461,6 +1413,9 @@ const Home = (props) => {
             .home-iframe {
               width: 448px;
               height: 343px;
+            }
+            .home-pricing {
+              display: none;
             }
             .home-help {
               align-items: center;
