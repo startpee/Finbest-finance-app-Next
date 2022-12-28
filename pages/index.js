@@ -1332,6 +1332,9 @@ const Home = (props) => {
               width: 297px;
               height: 291px;
             }
+            .home-heading1 {
+              display: none;
+            }
             .home-sections {
               display: none;
             }
