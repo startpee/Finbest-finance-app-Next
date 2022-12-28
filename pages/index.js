@@ -44,24 +44,10 @@ const Home = (props) => {
               </h1>
               <div className="home-hero-buttons">
                 <div className="home-i-o-s-btn">
-                  <Image
-                    alt="pastedImage"
-                    src="/playground_assets/pastedimage-zmzg.svg"
-                    className="home-apple"
-                    width={16}
-                    height={20}
-                  />
                   <span className="home-caption">Podcast</span>
                 </div>
                 <div className="home-android-btn">
-                  <Image
-                    alt="pastedImage"
-                    src="/playground_assets/pastedimage-ld65.svg"
-                    className="home-android"
-                    width={18}
-                    height={20}
-                  />
-                  <span className="home-caption1">nosso app</span>
+                  <span className="home-caption1">nosso Blog</span>
                 </div>
               </div>
             </div>
@@ -176,10 +162,10 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-help">
-            <span className="home-text02">Need any help?</span>
+            <span className="home-text02">precisa de ajuda?</span>
             <div className="home-explore1">
               <span className="home-text03">
-                Get in touch with us right away -&gt;
+                Entre em contato conosco imediatamente -&gt;
               </span>
             </div>
           </div>
@@ -424,7 +410,7 @@ const Home = (props) => {
                 <Image
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-zmzg.svg"
-                  className="home-apple1"
+                  className="home-apple"
                   width={16}
                   height={20}
                 />
@@ -434,7 +420,7 @@ const Home = (props) => {
                 <Image
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ld65.svg"
-                  className="home-android1"
+                  className="home-android"
                   width={18}
                   height={20}
                 />
@@ -534,10 +520,6 @@ const Home = (props) => {
           .home-i-o-s-btn:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-apple {
-            width: 16px;
-            height: 20px;
-          }
           .home-caption {
             font-style: normal;
             font-family: Poppins;
@@ -562,10 +544,6 @@ const Home = (props) => {
           }
           .home-android-btn:hover {
             background-color: rgba(0, 0, 0, 0.75);
-          }
-          .home-android {
-            width: 18px;
-            height: 20px;
           }
           .home-caption1 {
             font-style: normal;
@@ -718,7 +696,7 @@ const Home = (props) => {
           }
           .home-text01 {
             width: Size-XSmall;
-            font-size: 29px;
+            font-size: 22px;
           }
           .home-stats {
             width: 100%;
@@ -900,7 +878,7 @@ const Home = (props) => {
           }
           .home-testimonials {
             width: 100%;
-            display: flex;
+            display: none;
             max-width: 900px;
             align-items: stretch;
             padding-top: var(--dl-space-space-sixunits);
@@ -987,7 +965,7 @@ const Home = (props) => {
           }
           .home-f-a-q {
             width: 100%;
-            display: flex;
+            display: none;
             align-items: center;
             padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-oneandhalfunits);
@@ -1203,7 +1181,7 @@ const Home = (props) => {
           .home-i-o-s-btn1:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-apple1 {
+          .home-apple {
             width: 16px;
             height: 20px;
           }
@@ -1232,7 +1210,7 @@ const Home = (props) => {
           .home-android-btn1:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-android1 {
+          .home-android {
             width: 18px;
             height: 20px;
           }
@@ -1361,6 +1339,10 @@ const Home = (props) => {
               font-size: 32px;
               max-width: 640px;
             }
+            .home-iframe {
+              width: 625px;
+              height: 422px;
+            }
             .home-video-container {
               gap: var(--dl-space-space-threeunits);
             }
@@ -1475,6 +1457,10 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
+            }
+            .home-iframe {
+              width: 448px;
+              height: 343px;
             }
             .home-help {
               align-items: center;
