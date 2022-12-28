@@ -391,12 +391,24 @@ const Home = (props) => {
               <span className="home-text15">conselhos para jovens </span>
             </div>
             <div className="home-hero-buttons">
-              <div className="home-i-o-s-btn">
-                <span className="home-caption3">Podcast</span>
-              </div>
-              <div className="home-android-btn">
-                <span className="home-caption4">Blog</span>
-              </div>
+              <a
+                href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop&amp;nd=1"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link1"
+              >
+                <div className="home-i-o-s-btn">
+                  <span className="home-caption3">Podcast</span>
+                </div>
+              </a>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="home-link2"
+              >
+                <div className="home-android-btn">
+                  <span className="home-caption4">Blog</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -1040,6 +1052,9 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
+          .home-link1 {
+            display: contents;
+          }
           .home-i-o-s-btn {
             gap: var(--dl-space-space-halfunit);
             fill: white;
@@ -1055,6 +1070,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             justify-content: center;
+            text-decoration: none;
             background-color: #000000;
           }
           .home-i-o-s-btn:hover {
@@ -1064,6 +1080,9 @@ const Home = (props) => {
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
+          }
+          .home-link2 {
+            display: contents;
           }
           .home-android-btn {
             gap: var(--dl-space-space-halfunit);
@@ -1080,6 +1099,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             justify-content: center;
+            text-decoration: none;
             background-color: #000000;
           }
           .home-android-btn:hover {
@@ -1305,6 +1325,9 @@ const Home = (props) => {
               width: 448px;
               height: 343px;
             }
+            .home-sections {
+              display: none;
+            }
             .home-pricing {
               display: none;
             }
@@ -1324,6 +1347,9 @@ const Home = (props) => {
             }
             .home-get-started {
               display: flex;
+            }
+            .home-text14 {
+              color: var(--dl-color-gray-white);
             }
             .home-hero-buttons {
               width: 100%;
