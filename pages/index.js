@@ -391,7 +391,7 @@ const Home = (props) => {
           <div className="home-content4">
             <div className="home-heading3">
               <h2 className="home-text13">Nos acompanhe!</h2>
-              <span className="home-text14">conselhos para jovens </span>
+              <span className="home-text14">Sabedoria jovem</span>
             </div>
             <div className="home-hero-buttons">
               <a
@@ -1369,6 +1369,9 @@ const Home = (props) => {
             }
             .home-text13 {
               color: var(--dl-color-gray-white);
+            }
+            .home-text14 {
+              color: rgb(255, 255, 255);
             }
             .home-hero-buttons {
               width: 100%;
