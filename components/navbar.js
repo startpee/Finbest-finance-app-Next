@@ -82,21 +82,18 @@ const Navbar = (props) => {
               <a className="navbar-link06">{props.text11}</a>
             </Link>
             <Link href="/">
-              <a className="navbar-link07">{props.text12}</a>
-            </Link>
-            <Link href="/">
-              <a className="navbar-link08">{props.text13}</a>
+              <a className="navbar-link07">{props.text13}</a>
             </Link>
             <div className="navbar-buttons">
               <Link href="/">
-                <a className="navbar-link09">
+                <a className="navbar-link08">
                   <div className="navbar-btn">
                     <span className="navbar-text">{props.text131}</span>
                   </div>
                 </a>
               </Link>
               <Link href="/">
-                <a className="navbar-link10">
+                <a className="navbar-link09">
                   <div className="navbar-btn1">
                     <span className="navbar-text1">{props.text1311}</span>
                   </div>
@@ -280,9 +277,6 @@ closeButton.addEventListener("click", function() {
           .navbar-link07 {
             text-decoration: none;
           }
-          .navbar-link08 {
-            text-decoration: none;
-          }
           .navbar-buttons {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
@@ -293,7 +287,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link09 {
+          .navbar-link08 {
             display: contents;
           }
           .navbar-btn {
@@ -311,7 +305,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link10 {
+          .navbar-link09 {
             display: contents;
           }
           .navbar-btn1 {
@@ -356,6 +350,15 @@ closeButton.addEventListener("click", function() {
               padding-bottom: var(--dl-space-space-twounits);
             }
           }
+          @media (max-width: 479px) {
+            .navbar-mobile {
+              width: 435px;
+              height: 1000px;
+              margin-right: 0px;
+              padding-left: 28px;
+              padding-right: 28px;
+            }
+          }
         `}
       </style>
     </>
@@ -363,26 +366,24 @@ closeButton.addEventListener("click", function() {
 }
 
 Navbar.defaultProps = {
-  text1: 'Features',
-  text12: 'Prices',
+  text1: 'Seguir',
   Link_4: 'Contato',
-  Branding_src: '/playground_assets/sabedoria-200h.png',
+  Branding_src: '/playground_assets/sabedoria-1500h.png',
   Link_1: 'Nosso blog',
-  text131: 'Log in',
+  text131: 'Podcast',
   image_alt: 'image',
   pastedImage_src: '/playground_assets/pastedimage-8o98.svg',
-  text1311: 'Sign up',
-  text13: 'Contact',
+  text1311: 'Blog',
+  text13: 'Contato',
   Link_2: 'Podcast',
   pastedImage_alt: 'pastedImage',
-  image_src: '/playground_assets/pastedimage-cx4wqj.svg',
+  image_src: '/playground_assets/sabedoria-1500h.png',
   Branding_alt: 'pastedImage',
-  text11: 'How it works',
+  text11: 'Conselhos para jovens',
 }
 
 Navbar.propTypes = {
   text1: PropTypes.string,
-  text12: PropTypes.string,
   Link_4: PropTypes.string,
   Branding_src: PropTypes.string,
   Link_1: PropTypes.string,

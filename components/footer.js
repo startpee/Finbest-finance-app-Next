@@ -47,12 +47,6 @@ const Footer = (props) => {
               </a>
               <span className="footer-link2">{props.Link2}</span>
             </div>
-            <div className="footer-column1">
-              <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link3">{props.Link5}</span>
-              <span className="footer-link4">{props.Link6}</span>
-              <span className="footer-link5">{props.Link7}</span>
-            </div>
           </div>
         </div>
         <span className="footer-text1">{props.text}</span>
@@ -171,50 +165,6 @@ const Footer = (props) => {
           .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-column1 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .footer-header1 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 500;
-            line-height: 30px;
-          }
-          .footer-link3 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link3:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link4 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link4:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link5 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link5:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
           .footer-text1 {
             color: #c4c4c4;
             width: 100%;
@@ -264,10 +214,6 @@ const Footer = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
-            .footer-header1 {
-              font-size: 16px;
-              line-height: 24px;
-            }
           }
           @media (max-width: 479px) {
             .footer-links {
@@ -285,30 +231,22 @@ Footer.defaultProps = {
   Link1: 'Nosso blog',
   Link: 'Podcast',
   text1: 'sabedoria para jovens mudar de vida',
-  Header1: 'outros links',
   pastedImage_src: '/playground_assets/sabedoria%20%5B2%5D-200h.png',
   pastedImage_alt: 'pastedImage',
-  Link7: 'E-book',
   Link2: 'instagram',
-  Link5: 'Vida organizada',
   text: '© 2022 Sabedoria jovem. Todos os direitos reservado.',
   Header: 'Link importante',
-  Link6: 'Mentoria',
 }
 
 Footer.propTypes = {
   Link1: PropTypes.string,
   Link: PropTypes.string,
   text1: PropTypes.string,
-  Header1: PropTypes.string,
   pastedImage_src: PropTypes.string,
   pastedImage_alt: PropTypes.string,
-  Link7: PropTypes.string,
   Link2: PropTypes.string,
-  Link5: PropTypes.string,
   text: PropTypes.string,
   Header: PropTypes.string,
-  Link6: PropTypes.string,
 }
 
 export default Footer

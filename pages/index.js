@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
@@ -42,14 +41,6 @@ const Home = (props) => {
               <h1 className="home-title">
                 Sabedoria jovem conteúdos para te ajudar despertar a sabedoria.
               </h1>
-              <div className="home-hero-buttons">
-                <div className="home-i-o-s-btn">
-                  <span className="home-caption">Podcast</span>
-                </div>
-                <div className="home-android-btn">
-                  <span className="home-caption1">nosso Blog</span>
-                </div>
-              </div>
             </div>
             <div className="home-images">
               <div className="home-column">
@@ -120,7 +111,7 @@ const Home = (props) => {
         </div>
         <div className="home-stats">
           <div className="home-stat">
-            <span className="home-caption2">200k</span>
+            <span className="home-caption">200k</span>
             <span className="home-description">
               Lorem ipsum dolor sit ametconsectetur adipiscing
               <span
@@ -131,7 +122,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-stat1">
-            <span className="home-caption3">$3,5 billions</span>
+            <span className="home-caption1">$3,5 billions</span>
             <span className="home-description1">
               Lorem ipsum dolor sit ametconsectetur adipiscing
               <span
@@ -142,7 +133,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-stat2">
-            <span className="home-caption4">10.000 +</span>
+            <span className="home-caption2">10.000 +</span>
             <span className="home-description2">
               Lorem ipsum dolor sit ametconsectetur adipiscing
               <span
@@ -399,26 +390,12 @@ const Home = (props) => {
               <h2 className="home-text14">Nos acompanhe!</h2>
               <span className="home-text15">conselhos para jovens </span>
             </div>
-            <div className="home-hero-buttons1">
-              <div className="home-i-o-s-btn1">
-                <Image
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-zmzg.svg"
-                  className="home-apple"
-                  width={16}
-                  height={20}
-                />
-                <span className="home-caption5">Podcast</span>
+            <div className="home-hero-buttons">
+              <div className="home-i-o-s-btn">
+                <span className="home-caption3">Podcast</span>
               </div>
-              <div className="home-android-btn1">
-                <Image
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-ld65.svg"
-                  className="home-android"
-                  width={18}
-                  height={20}
-                />
-                <span className="home-caption6">Nosso app</span>
+              <div className="home-android-btn">
+                <span className="home-caption4">Blog</span>
               </div>
             </div>
           </div>
@@ -484,65 +461,6 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
             line-height: 76px;
-          }
-          .home-hero-buttons {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            z-index: 15;
-            margin-top: var(--dl-space-space-unit);
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-i-o-s-btn {
-            gap: var(--dl-space-space-halfunit);
-            fill: white;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #000000;
-          }
-          .home-i-o-s-btn:hover {
-            background-color: rgba(0, 0, 0, 0.75);
-          }
-          .home-caption {
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 500;
-          }
-          .home-android-btn {
-            gap: var(--dl-space-space-halfunit);
-            fill: white;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #000000;
-          }
-          .home-android-btn:hover {
-            background-color: rgba(0, 0, 0, 0.75);
-          }
-          .home-caption1 {
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 500;
           }
           .home-images {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -717,7 +635,7 @@ const Home = (props) => {
             border-right-width: 1px;
             border-bottom-width: 1px;
           }
-          .home-caption2 {
+          .home-caption {
             font-size: 40px;
             font-style: normal;
             font-family: Poppins;
@@ -744,7 +662,7 @@ const Home = (props) => {
             justify-content: center;
             border-bottom-width: 1px;
           }
-          .home-caption3 {
+          .home-caption1 {
             font-size: 40px;
             font-style: normal;
             font-family: Poppins;
@@ -772,7 +690,7 @@ const Home = (props) => {
             border-left-width: 1px;
             border-bottom-width: 1px;
           }
-          .home-caption4 {
+          .home-caption2 {
             font-size: 40px;
             font-style: normal;
             font-family: Poppins;
@@ -1114,7 +1032,7 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 30px;
           }
-          .home-hero-buttons1 {
+          .home-hero-buttons {
             gap: var(--dl-space-space-unit);
             display: flex;
             z-index: 15;
@@ -1122,7 +1040,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-i-o-s-btn1 {
+          .home-i-o-s-btn {
             gap: var(--dl-space-space-halfunit);
             fill: white;
             color: white;
@@ -1139,19 +1057,15 @@ const Home = (props) => {
             justify-content: center;
             background-color: #000000;
           }
-          .home-i-o-s-btn1:hover {
+          .home-i-o-s-btn:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-apple {
-            width: 16px;
-            height: 20px;
-          }
-          .home-caption5 {
+          .home-caption3 {
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
           }
-          .home-android-btn1 {
+          .home-android-btn {
             gap: var(--dl-space-space-halfunit);
             fill: white;
             color: white;
@@ -1168,14 +1082,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: #000000;
           }
-          .home-android-btn1:hover {
+          .home-android-btn:hover {
             background-color: rgba(0, 0, 0, 0.75);
           }
-          .home-android {
-            width: 18px;
-            height: 20px;
-          }
-          .home-caption6 {
+          .home-caption4 {
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
@@ -1194,15 +1104,6 @@ const Home = (props) => {
               font-size: 50px;
               text-align: left;
               line-height: 58px;
-            }
-            .home-hero-buttons {
-              width: 100%;
-            }
-            .home-i-o-s-btn {
-              flex: 1;
-            }
-            .home-android-btn {
-              flex: 1;
             }
             .home-images {
               left: 0px;
@@ -1238,7 +1139,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
               border-right-width: 0px;
             }
-            .home-caption2 {
+            .home-caption {
               text-align: center;
               line-height: 32px;
             }
@@ -1248,7 +1149,7 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-caption3 {
+            .home-caption1 {
               text-align: center;
               line-height: 32px;
             }
@@ -1259,7 +1160,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
               border-left-width: 0px;
             }
-            .home-caption4 {
+            .home-caption2 {
               text-align: center;
               line-height: 32px;
             }
@@ -1307,21 +1208,21 @@ const Home = (props) => {
             .home-heading1 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-caption2 {
+            .home-caption {
               font-size: 32px;
             }
             .home-description {
               font-size: 16px;
               line-height: 24px;
             }
-            .home-caption3 {
+            .home-caption1 {
               font-size: 32px;
             }
             .home-description1 {
               font-size: 16px;
               line-height: 24px;
             }
-            .home-caption4 {
+            .home-caption2 {
               font-size: 32px;
             }
             .home-description2 {
@@ -1382,16 +1283,6 @@ const Home = (props) => {
               font-weight: 600;
               line-height: 55px;
             }
-            .home-hero-buttons {
-              width: 100%;
-              flex-direction: column;
-            }
-            .home-i-o-s-btn {
-              width: 100%;
-            }
-            .home-android-btn {
-              width: 100%;
-            }
             .home-images {
               bottom: -300px;
             }
@@ -1431,15 +1322,23 @@ const Home = (props) => {
             .home-right {
               padding: var(--dl-space-space-halfunit);
             }
-            .home-hero-buttons1 {
+            .home-get-started {
+              display: flex;
+            }
+            .home-hero-buttons {
               width: 100%;
               flex-direction: column;
             }
-            .home-i-o-s-btn1 {
+            .home-i-o-s-btn {
               width: 100%;
             }
-            .home-android-btn1 {
+            .home-android-btn {
               width: 100%;
+            }
+            .home-caption4 {
+              font-style: normal;
+              font-family: Poppins;
+              font-weight: 500;
             }
           }
         `}
