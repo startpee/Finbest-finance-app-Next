@@ -33,20 +33,25 @@ const Footer = (props) => {
           <div className="footer-links">
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
-              <span className="footer-link">{props.Link}</span>
-              <span className="footer-link01">{props.Link1}</span>
-              <span className="footer-link02">{props.Link2}</span>
-              <span className="footer-link03">{props.Link3}</span>
-              <span className="footer-link04">{props.Link4}</span>
+              <a
+                href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop"
+                className="footer-link"
+              >
+                {props.Link}
+              </a>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="footer-link1"
+              >
+                {props.Link1}
+              </a>
+              <span className="footer-link2">{props.Link2}</span>
             </div>
             <div className="footer-column1">
               <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link05">{props.Link5}</span>
-              <span className="footer-link06">{props.Link6}</span>
-              <span className="footer-link07">{props.Link7}</span>
-              <span className="footer-link08">{props.Link8}</span>
-              <span className="footer-link09">{props.Link9}</span>
-              <span className="footer-link10">{props.Link10}</span>
+              <span className="footer-link3">{props.Link5}</span>
+              <span className="footer-link4">{props.Link6}</span>
+              <span className="footer-link5">{props.Link7}</span>
             </div>
           </div>
         </div>
@@ -140,48 +145,30 @@ const Footer = (props) => {
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
+            text-decoration: none;
           }
           .footer-link:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link01 {
+          .footer-link1 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
+            text-decoration: none;
           }
-          .footer-link01:hover {
+          .footer-link1:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link02 {
+          .footer-link2 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link02:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link03 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link03:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link04 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link04:hover {
+          .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-column1 {
@@ -198,64 +185,34 @@ const Footer = (props) => {
             font-weight: 500;
             line-height: 30px;
           }
-          .footer-link05 {
+          .footer-link3 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link05:hover {
+          .footer-link3:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link06 {
+          .footer-link4 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link06:hover {
+          .footer-link4:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link07 {
+          .footer-link5 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link07:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link08 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link08:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link09 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link09:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link10 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link10:hover {
+          .footer-link5:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -325,32 +282,23 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  Link9: 'Careers',
-  Link1: 'Responsive Prototypes',
-  Link: 'Responsive Web Design',
-  Link8: 'Partners',
-  Link3: 'Static Website Builder',
-  Link10: 'Press & Media',
+  Link1: 'Nosso blog',
+  Link: 'Podcast',
   text1: 'sabedoria para jovens mudar de vida',
-  Header1: 'Company',
+  Header1: 'outros links',
   pastedImage_src: '/playground_assets/sabedoria%20%5B2%5D-200h.png',
   pastedImage_alt: 'pastedImage',
-  Link7: 'News',
-  Link2: 'Design to Code',
-  Link5: 'About',
+  Link7: 'E-book',
+  Link2: 'instagram',
+  Link5: 'Vida organizada',
   text: '© 2022 Sabedoria jovem. Todos os direitos reservado.',
-  Header: 'Solutions',
-  Link6: 'Team',
-  Link4: 'Static Website Generator',
+  Header: 'Link importante',
+  Link6: 'Mentoria',
 }
 
 Footer.propTypes = {
-  Link9: PropTypes.string,
   Link1: PropTypes.string,
   Link: PropTypes.string,
-  Link8: PropTypes.string,
-  Link3: PropTypes.string,
-  Link10: PropTypes.string,
   text1: PropTypes.string,
   Header1: PropTypes.string,
   pastedImage_src: PropTypes.string,
@@ -361,7 +309,6 @@ Footer.propTypes = {
   text: PropTypes.string,
   Header: PropTypes.string,
   Link6: PropTypes.string,
-  Link4: PropTypes.string,
 }
 
 export default Footer

@@ -22,25 +22,35 @@ const Navbar = (props) => {
               </Link>
             </div>
             <div className="navbar-links">
-              <Link href="/">
-                <a className="link">{props.Link_1}</a>
-              </Link>
-              <Link href="/">
-                <a className="link">{props.Link_2}</a>
-              </Link>
-              <Link href="/">
-                <a className="link">{props.Link_4}</a>
-              </Link>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="navbar-link01 link"
+              >
+                {props.Link_1}
+              </a>
+              <a
+                href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop&amp;nd=1"
+                className="navbar-link02 link"
+              >
+                {props.Link_2}
+              </a>
+              <a
+                href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
+                className="navbar-link03 link"
+              >
+                {props.Link_4}
+              </a>
             </div>
           </div>
           <div className="navbar-quick-actions">
-            <Link href="/">
-              <a className="navbar-link07">
-                <div className="navbar-sign-up-btn">
-                  <span className="navbar-sign-up">Seguir</span>
-                </div>
-              </a>
-            </Link>
+            <a
+              href="https://www.instagram.com/oprimojunior/"
+              className="navbar-link04"
+            >
+              <div className="navbar-sign-up-btn">
+                <span className="navbar-sign-up">Seguir</span>
+              </div>
+            </a>
             <img
               id="open-mobile-menu"
               alt={props.pastedImage_alt}
@@ -66,27 +76,27 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links1">
             <Link href="/">
-              <a className="navbar-link08">{props.text1}</a>
+              <a className="navbar-link05">{props.text1}</a>
             </Link>
             <Link href="/">
-              <a className="navbar-link09">{props.text11}</a>
+              <a className="navbar-link06">{props.text11}</a>
             </Link>
             <Link href="/">
-              <a className="navbar-link10">{props.text12}</a>
+              <a className="navbar-link07">{props.text12}</a>
             </Link>
             <Link href="/">
-              <a className="navbar-link11">{props.text13}</a>
+              <a className="navbar-link08">{props.text13}</a>
             </Link>
             <div className="navbar-buttons">
               <Link href="/">
-                <a className="navbar-link12">
+                <a className="navbar-link09">
                   <div className="navbar-btn">
                     <span className="navbar-text">{props.text131}</span>
                   </div>
                 </a>
               </Link>
               <Link href="/">
-                <a className="navbar-link13">
+                <a className="navbar-link10">
                   <div className="navbar-btn1">
                     <span className="navbar-text1">{props.text1311}</span>
                   </div>
@@ -175,6 +185,15 @@ closeButton.addEventListener("click", function() {
             padding-bottom: 12px;
             justify-content: center;
           }
+          .navbar-link01 {
+            text-decoration: none;
+          }
+          .navbar-link02 {
+            text-decoration: none;
+          }
+          .navbar-link03 {
+            text-decoration: none;
+          }
           .navbar-quick-actions {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
@@ -182,7 +201,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .navbar-link07 {
+          .navbar-link04 {
             display: contents;
           }
           .navbar-sign-up-btn {
@@ -252,16 +271,16 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
+          .navbar-link05 {
+            text-decoration: none;
+          }
+          .navbar-link06 {
+            text-decoration: none;
+          }
+          .navbar-link07 {
+            text-decoration: none;
+          }
           .navbar-link08 {
-            text-decoration: none;
-          }
-          .navbar-link09 {
-            text-decoration: none;
-          }
-          .navbar-link10 {
-            text-decoration: none;
-          }
-          .navbar-link11 {
             text-decoration: none;
           }
           .navbar-buttons {
@@ -274,7 +293,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link12 {
+          .navbar-link09 {
             display: contents;
           }
           .navbar-btn {
@@ -292,7 +311,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link13 {
+          .navbar-link10 {
             display: contents;
           }
           .navbar-btn1 {

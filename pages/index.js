@@ -7,7 +7,6 @@ import DangerousHTML from 'dangerous-html/react'
 
 import Announcement from '../components/announcement'
 import Navbar from '../components/navbar'
-import Check from '../components/check'
 import Quote from '../components/quote'
 import Footer from '../components/footer'
 
@@ -173,134 +172,13 @@ const Home = (props) => {
         <div className="home-pricing">
           <div className="home-content2">
             <div className="home-plans">
-              <div className="home-plan">
-                <div className="home-top">
-                  <div className="home-heading2">
-                    <span className="home-text02">Standard</span>
-                    <span className="home-text03">
-                      Sed ut perspiciatis unde omnis iste natus error sit.
-                    </span>
-                  </div>
-                  <div className="home-cost">
-                    <span className="home-text04">Free</span>
-                  </div>
-                </div>
-                <div className="home-bottom">
-                  <div className="home-check-list">
-                    <Check></Check>
-                    <Check Feature="Quis nostrud exercitation ulla"></Check>
-                    <Check Feature="Duis aute irure dolor intuit"></Check>
-                    <Check Feature="Voluptas sit aspernatur aut odit"></Check>
-                    <Check Feature="Corporis suscipit laboriosam"></Check>
-                  </div>
-                  <div className="home-button">
-                    <span className="home-text05">Get Standard</span>
-                  </div>
-                </div>
-              </div>
-              <div className="home-plan1">
-                <div className="home-top1">
-                  <div className="home-heading3">
-                    <span className="home-text06">Plus</span>
-                    <span className="home-text07">
-                      Sed ut perspiciatis unde omnis iste natus error sit.
-                    </span>
-                  </div>
-                  <div className="home-cost1">
-                    <span className="home-text08">$8</span>
-                    <span className="home-text09">/month</span>
-                  </div>
-                </div>
-                <div className="home-bottom1">
-                  <div className="home-check-list1">
-                    <Check></Check>
-                    <Check Feature="Quis nostrud exercitation ulla"></Check>
-                    <Check Feature="Duis aute irure dolor intuit"></Check>
-                    <Check Feature="Voluptas sit aspernatur aut odit"></Check>
-                    <Check Feature="Corporis suscipit laboriosam"></Check>
-                  </div>
-                  <div className="home-button1">
-                    <span className="home-text10">Get Plus</span>
-                  </div>
-                </div>
-              </div>
-              <div className="home-plan2">
-                <div className="home-top2">
-                  <div className="home-heading4">
-                    <span className="home-text11">Premium</span>
-                    <span className="home-text12">
-                      Sed ut perspiciatis unde omnis iste natus error sit.
-                    </span>
-                  </div>
-                  <div className="home-cost2">
-                    <span className="home-text13">$16</span>
-                    <span className="home-text14">/month</span>
-                  </div>
-                </div>
-                <div className="home-bottom2">
-                  <div className="home-check-list2">
-                    <Check></Check>
-                    <Check Feature="Quis nostrud exercitation ulla"></Check>
-                    <Check Feature="Duis aute irure dolor intuit"></Check>
-                    <Check Feature="Voluptas sit aspernatur aut odit"></Check>
-                    <Check Feature="Corporis suscipit laboriosam"></Check>
-                  </div>
-                  <div className="home-button2">
-                    <span className="home-text15">Get Plus</span>
-                  </div>
-                </div>
-              </div>
-              <div className="home-expand">
-                <div className="home-overlay">
-                  <div className="home-header2">
-                    <div className="home-heading5">
-                      <span className="home-text16">Expand</span>
-                      <span className="home-text17">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
-                    </div>
-                    <div className="home-check-list3">
-                      <div className="home-check">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
-                          <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
-                        </svg>
-                        <span className="home-text18">
-                          Sed ut perspiciatis unde
-                        </span>
-                      </div>
-                      <div className="home-check1">
-                        <svg viewBox="0 0 1024 1024" className="home-icon02">
-                          <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
-                        </svg>
-                        <span className="home-text19">
-                          Quis nostrud exercitation ulla
-                        </span>
-                      </div>
-                      <div className="home-check2">
-                        <svg viewBox="0 0 1024 1024" className="home-icon04">
-                          <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
-                        </svg>
-                        <span className="home-text20">
-                          Duis aute irure dolor intuit
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="home-button3">
-                    <span className="home-text21">
-                      <span>Contact us</span>
-                      <br></br>
-                    </span>
-                  </div>
-                </div>
-              </div>
+              <div className="home-expand"></div>
             </div>
           </div>
           <div className="home-help">
-            <span className="home-text24">Need any help?</span>
+            <span className="home-text02">Need any help?</span>
             <div className="home-explore1">
-              <span className="home-text25">
+              <span className="home-text03">
                 Get in touch with us right away -&gt;
               </span>
             </div>
@@ -337,12 +215,12 @@ const Home = (props) => {
             </div>
             <div className="home-buttons">
               <div id="quote-before" className="home-left">
-                <svg viewBox="0 0 1024 1024" className="home-icon06">
+                <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M854 470v84h-520l238 240-60 60-342-342 342-342 60 60-238 240h520z"></path>
                 </svg>
               </div>
               <div id="quote-next" className="home-right">
-                <svg viewBox="0 0 1024 1024" className="home-icon08">
+                <svg viewBox="0 0 1024 1024" className="home-icon2">
                   <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                 </svg>
               </div>
@@ -385,15 +263,15 @@ const Home = (props) => {
         </div>
         <div className="home-f-a-q">
           <div className="home-content4">
-            <div className="home-header3">
+            <div className="home-header2">
               <div className="home-tag">
-                <span className="home-text26">
+                <span className="home-text04">
                   <span>FAQ</span>
                   <br></br>
                 </span>
               </div>
-              <div className="home-heading6">
-                <h2 className="home-text29">Perguntas frequentes</h2>
+              <div className="home-heading2">
+                <h2 className="home-text07">Perguntas frequentes</h2>
               </div>
             </div>
             <div className="home-rows">
@@ -537,9 +415,9 @@ const Home = (props) => {
         </div>
         <div className="home-get-started">
           <div className="home-content5">
-            <div className="home-heading7">
-              <h2 className="home-text36">Nos acompanhe!</h2>
-              <span className="home-text37">conselhos para jovens </span>
+            <div className="home-heading3">
+              <h2 className="home-text14">Nos acompanhe!</h2>
+              <span className="home-text15">conselhos para jovens </span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn1">
@@ -983,432 +861,14 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-plan {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: flex-start;
-            border-right-width: 1px;
-          }
-          .home-top {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading2 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text02 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text03 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-cost {
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text04 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-bottom {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-button {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #ade2df;
-          }
-          .home-button:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text05 {
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-plan1 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-top1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading3 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text06 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text07 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-cost1 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-text08 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-text09 {
-            font-family: Poppins;
-          }
-          .home-bottom1 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list1 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-button1 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #ade2df;
-          }
-          .home-button1:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text10 {
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-plan2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-top2 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading4 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text11 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text12 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-cost2 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-text13 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-text14 {
-            font-family: Poppins;
-          }
-          .home-bottom2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list2 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-button2 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #ade2df;
-          }
-          .home-button2:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text15 {
-            font-style: normal;
-            font-weight: 500;
-          }
           .home-expand {
             flex: 0.3;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
-          }
-          .home-overlay {
-            flex: 1;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            flex-direction: column;
-            background-size: cover;
-            justify-content: space-between;
-            background-image: url('/playground_assets/planbackground.svg');
-          }
-          .home-header2 {
-            gap: var(--dl-space-space-twounits);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-heading5 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            display: flex;
-            max-width: 256px;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text16 {
-            color: #ffffff;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text17 {
-            color: #c1fffc;
-            font-size: 24px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 500;
-            line-height: 31px;
-          }
-          .home-check-list3 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-check {
-            gap: var(--dl-space-space-halfunit);
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-icon {
-            fill: #ffffff;
-            width: 18px;
-            height: 18px;
-          }
-          .home-text18 {
-            color: #ffffff;
-            font-size: 14px;
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-check1 {
-            gap: var(--dl-space-space-halfunit);
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-icon02 {
-            fill: #ffffff;
-            width: 18px;
-            height: 18px;
-          }
-          .home-text19 {
-            color: rgb(255, 255, 255);
-            font-size: 14px;
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-check2 {
-            gap: var(--dl-space-space-halfunit);
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-icon04 {
-            fill: #ffffff;
-            width: 18px;
-            height: 18px;
-          }
-          .home-text20 {
-            color: rgb(255, 255, 255);
-            font-size: 14px;
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-button3 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #000000;
-          }
-          .home-button3:hover {
-            background-color: rgba(0, 0, 0, 0.5);
-          }
-          .home-text21 {
-            color: rgb(255, 255, 255);
-            font-style: normal;
-            font-weight: 500;
           }
           .home-help {
             gap: var(--dl-space-space-halfunit);
@@ -1417,7 +877,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
-          .home-text24 {
+          .home-text02 {
             font-family: Poppins;
           }
           .home-explore1 {
@@ -1434,7 +894,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-text25 {
+          .home-text03 {
             font-style: normal;
             font-weight: 600;
           }
@@ -1501,7 +961,7 @@ const Home = (props) => {
             fill: #000;
             border-color: #000;
           }
-          .home-icon06 {
+          .home-icon {
             width: 19px;
             height: 19px;
           }
@@ -1521,7 +981,7 @@ const Home = (props) => {
             fill: #000;
             border-color: #000;
           }
-          .home-icon08 {
+          .home-icon2 {
             width: 19px;
             height: 19px;
           }
@@ -1545,7 +1005,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-header3 {
+          .home-header2 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: center;
@@ -1564,18 +1024,18 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text26 {
+          .home-text04 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-heading6 {
+          .home-heading2 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text29 {
+          .home-text07 {
             width: 100%;
             font-size: 40px;
             max-width: 600px;
@@ -1694,13 +1154,13 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-heading7 {
+          .home-heading3 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text36 {
+          .home-text14 {
             color: rgb(193, 255, 252);
             font-size: 64px;
             font-style: normal;
@@ -1708,7 +1168,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text37 {
+          .home-text15 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             text-align: center;
@@ -1871,36 +1331,6 @@ const Home = (props) => {
             .home-content2 {
               gap: var(--dl-space-space-threeunits);
             }
-            .home-overlay {
-              width: 100%;
-              justify-content: space-between;
-            }
-            .home-header2 {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-heading5 {
-              gap: var(--dl-space-space-halfunit);
-              max-width: 600px;
-            }
-            .home-text16 {
-              font-size: 18px;
-            }
-            .home-text17 {
-              font-size: 20px;
-              line-height: 26px;
-            }
-            .home-text18 {
-              line-height: 21px;
-            }
-            .home-text19 {
-              line-height: 21px;
-            }
-            .home-text20 {
-              line-height: 21px;
-            }
-            .home-button3 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
             .home-get-started {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
@@ -1908,13 +1338,13 @@ const Home = (props) => {
             .home-content5 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-heading7 {
+            .home-heading3 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text36 {
+            .home-text14 {
               font-size: 40px;
             }
-            .home-text37 {
+            .home-text15 {
               font-size: 18px;
             }
           }
@@ -1962,104 +1392,11 @@ const Home = (props) => {
               gap: var(--dl-space-space-oneandhalfunits);
               display: flex;
             }
-            .home-plan {
-              max-width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              border-width: 1px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              border-radius: 16px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-              background-color: #ffffff;
-            }
-            .home-top {
-              width: 100%;
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-heading2 {
-              gap: var(--dl-space-space-halfunit);
-            }
-            .home-text02 {
-              font-size: 18px;
-            }
-            .home-text04 {
-              font-size: 32px;
-              line-height: 32px;
-            }
-            .home-plan1 {
-              max-width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              border-width: 1px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              border-radius: 16px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-              background-color: #ffffff;
-              border-right-width: 1px;
-            }
-            .home-top1 {
-              width: 100%;
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-heading3 {
-              gap: var(--dl-space-space-halfunit);
-            }
-            .home-text06 {
-              font-size: 18px;
-            }
-            .home-text08 {
-              font-size: 32px;
-              line-height: 32px;
-            }
-            .home-text10 {
-              font-weight: 500;
-            }
-            .home-plan2 {
-              max-width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              border-width: 1px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              border-radius: 16px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-              background-color: #ffffff;
-              border-right-width: 1px;
-            }
-            .home-top2 {
-              width: 100%;
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-heading4 {
-              gap: var(--dl-space-space-halfunit);
-            }
-            .home-text11 {
-              font-size: 18px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-            }
-            .home-text13 {
-              font-size: 32px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-              line-height: 32px;
-            }
-            .home-text15 {
-              font-weight: 500;
-            }
             .home-expand {
               flex: 0 0 auto;
               width: 100%;
               border-radius: 16px;
               background-color: #375ee0;
-            }
-            .home-overlay {
-              align-items: center;
-              background-size: contain;
-              justify-content: center;
-              background-repeat: no-repeat;
-              background-position: top right;
             }
             .home-testimonials {
               width: 100%;
@@ -2086,10 +1423,10 @@ const Home = (props) => {
             .home-content4 {
               gap: var(--dl-space-space-twounits);
             }
-            .home-text26 {
+            .home-text04 {
               font-size: 14px;
             }
-            .home-text29 {
+            .home-text07 {
               font-size: 32px;
               line-height: 44px;
             }
