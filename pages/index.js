@@ -1308,6 +1308,7 @@ const Home = (props) => {
               font-weight: 600;
               line-height: 55px;
               margin-bottom: var(--dl-space-space-unit);
+              background-color: #d9d9d9;
             }
             .home-images {
               bottom: -300px;
