@@ -102,7 +102,7 @@ const Navbar = (props) => {
                 </div>
               </a>
               <a
-                href="https://blog.sabedoriajovem.site/"
+                href="https://www.instagram.com/oprimojunior/"
                 className="navbar-link10"
               >
                 <div className="navbar-btn2">
@@ -380,8 +380,8 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 384px;
-              height: 948px;
+              width: 391px;
+              height: 1014px;
               margin-right: 0px;
               padding-left: 28px;
               margin-bottom: 0px;
@@ -402,6 +402,12 @@ closeButton.addEventListener("click", function() {
               display: none;
               align-self: center;
             }
+            .navbar-buttons {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
           }
         `}
       </style>
@@ -413,6 +419,7 @@ Navbar.defaultProps = {
   text1: 'Seguir',
   Link_4: 'Contato',
   Branding_src: '/playground_assets/sabedoria-1500h.png',
+  text13111: 'Seguir',
   Link_1: 'Nosso blog',
   text131: 'Podcast',
   image_alt: 'image',
@@ -424,13 +431,13 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/sabedoria-1500h.png',
   Branding_alt: 'pastedImage',
   text11: 'Conselhos para jovens',
-  text13111: 'Blog',
 }
 
 Navbar.propTypes = {
   text1: PropTypes.string,
   Link_4: PropTypes.string,
   Branding_src: PropTypes.string,
+  text13111: PropTypes.string,
   Link_1: PropTypes.string,
   text131: PropTypes.string,
   image_alt: PropTypes.string,
@@ -442,7 +449,6 @@ Navbar.propTypes = {
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
   text11: PropTypes.string,
-  text13111: PropTypes.string,
 }
 
 export default Navbar
