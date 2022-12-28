@@ -85,20 +85,22 @@ const Navbar = (props) => {
               <a className="navbar-link07">{props.text13}</a>
             </Link>
             <div className="navbar-buttons">
-              <Link href="/">
-                <a className="navbar-link08">
-                  <div className="navbar-btn">
-                    <span className="navbar-text">{props.text131}</span>
-                  </div>
-                </a>
-              </Link>
-              <Link href="/">
-                <a className="navbar-link09">
-                  <div className="navbar-btn1">
-                    <span className="navbar-text1">{props.text1311}</span>
-                  </div>
-                </a>
-              </Link>
+              <a
+                href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop&amp;nd=1"
+                className="navbar-link08"
+              >
+                <div className="navbar-btn">
+                  <span className="navbar-text">{props.text131}</span>
+                </div>
+              </a>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="navbar-link09"
+              >
+                <div className="navbar-btn1">
+                  <span className="navbar-text1">{props.text1311}</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -358,6 +360,18 @@ closeButton.addEventListener("click", function() {
               padding-left: 28px;
               margin-bottom: 0px;
               padding-right: 28px;
+            }
+            .navbar-links1 {
+              align-self: center;
+            }
+            .navbar-link05 {
+              align-self: center;
+            }
+            .navbar-link06 {
+              align-self: center;
+            }
+            .navbar-link07 {
+              align-self: center;
             }
           }
         `}
