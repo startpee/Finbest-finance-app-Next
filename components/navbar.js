@@ -388,16 +388,18 @@ closeButton.addEventListener("click", function() {
               padding-right: 28px;
             }
             .navbar-links1 {
-              display: none;
               align-self: center;
             }
             .navbar-link05 {
+              display: none;
               align-self: center;
             }
             .navbar-link06 {
+              display: none;
               align-self: center;
             }
             .navbar-link07 {
+              display: none;
               align-self: center;
             }
           }
