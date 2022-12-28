@@ -101,9 +101,12 @@ const Home = (props) => {
               <div className="home-heading-container">
                 <div className="home-heading1"></div>
                 <div className="home-explore">
-                  <span className="home-text01">
+                  <a
+                    href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
+                    className="home-link1"
+                  >
                     Acompanhar no youtube-&gt;
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -147,9 +150,9 @@ const Home = (props) => {
         <div className="home-sections"></div>
         <div className="home-pricing">
           <div className="home-help">
-            <span className="home-text02">precisa de ajuda?</span>
+            <span className="home-text01">precisa de ajuda?</span>
             <div className="home-explore1">
-              <span className="home-text03">
+              <span className="home-text02">
                 Entre em contato conosco imediatamente -&gt;
               </span>
             </div>
@@ -236,13 +239,13 @@ const Home = (props) => {
           <div className="home-content3">
             <div className="home-header2">
               <div className="home-tag">
-                <span className="home-text04">
+                <span className="home-text03">
                   <span>FAQ</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-heading2">
-                <h2 className="home-text07">Perguntas frequentes</h2>
+                <h2 className="home-text06">Perguntas frequentes</h2>
               </div>
             </div>
             <div className="home-rows">
@@ -387,15 +390,15 @@ const Home = (props) => {
         <div className="home-get-started">
           <div className="home-content4">
             <div className="home-heading3">
-              <h2 className="home-text14">Nos acompanhe!</h2>
-              <span className="home-text15">conselhos para jovens </span>
+              <h2 className="home-text13">Nos acompanhe!</h2>
+              <span className="home-text14">conselhos para jovens </span>
             </div>
             <div className="home-hero-buttons">
               <a
                 href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop&amp;nd=1"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link1"
+                className="home-link2"
               >
                 <div className="home-i-o-s-btn">
                   <span className="home-caption3">Podcast</span>
@@ -403,7 +406,7 @@ const Home = (props) => {
               </a>
               <a
                 href="https://blog.sabedoriajovem.site/"
-                className="home-link2"
+                className="home-link3"
               >
                 <div className="home-android-btn">
                   <span className="home-caption4">Blog</span>
@@ -618,9 +621,10 @@ const Home = (props) => {
             color: rgba(255, 255, 255, 0.5);
             border-color: rgba(255, 255, 255, 0.3);
           }
-          .home-text01 {
+          .home-link1 {
             width: Size-XSmall;
             font-size: 22px;
+            text-decoration: none;
           }
           .home-stats {
             width: 100%;
@@ -746,7 +750,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
-          .home-text02 {
+          .home-text01 {
             font-family: Poppins;
           }
           .home-explore1 {
@@ -763,7 +767,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-text03 {
+          .home-text02 {
             font-style: normal;
             font-weight: 600;
           }
@@ -893,7 +897,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text04 {
+          .home-text03 {
             font-style: normal;
             font-weight: 500;
           }
@@ -904,7 +908,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text07 {
+          .home-text06 {
             width: 100%;
             font-size: 40px;
             max-width: 600px;
@@ -1029,7 +1033,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text14 {
+          .home-text13 {
             color: rgb(193, 255, 252);
             font-size: 64px;
             font-style: normal;
@@ -1037,7 +1041,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text15 {
+          .home-text14 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             text-align: center;
@@ -1052,7 +1056,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
           .home-i-o-s-btn {
@@ -1081,7 +1085,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 500;
           }
-          .home-link2 {
+          .home-link3 {
             display: contents;
           }
           .home-android-btn {
@@ -1198,10 +1202,10 @@ const Home = (props) => {
             .home-heading3 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text14 {
+            .home-text13 {
               font-size: 40px;
             }
-            .home-text15 {
+            .home-text14 {
               font-size: 18px;
             }
           }
@@ -1274,10 +1278,10 @@ const Home = (props) => {
             .home-content3 {
               gap: var(--dl-space-space-twounits);
             }
-            .home-text04 {
+            .home-text03 {
               font-size: 14px;
             }
-            .home-text07 {
+            .home-text06 {
               font-size: 32px;
               line-height: 44px;
             }
@@ -1323,8 +1327,8 @@ const Home = (props) => {
               width: 150px;
             }
             .home-iframe {
-              width: 448px;
-              height: 343px;
+              width: 297px;
+              height: 291px;
             }
             .home-sections {
               display: none;
@@ -1349,7 +1353,7 @@ const Home = (props) => {
             .home-get-started {
               display: flex;
             }
-            .home-text14 {
+            .home-text13 {
               color: var(--dl-color-gray-white);
             }
             .home-hero-buttons {
