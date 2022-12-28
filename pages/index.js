@@ -1303,9 +1303,11 @@ const Home = (props) => {
             .home-title {
               font-size: 33px;
               font-style: normal;
+              margin-top: var(--dl-space-space-unit);
               font-family: Poppins;
               font-weight: 600;
               line-height: 55px;
+              margin-bottom: var(--dl-space-space-unit);
             }
             .home-images {
               bottom: -300px;
