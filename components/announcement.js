@@ -72,7 +72,6 @@ const Announcement = (props) => {
           }
           @media (max-width: 479px) {
             .announcement-announcement {
-              height: 92px;
               align-items: center;
               flex-direction: column;
             }

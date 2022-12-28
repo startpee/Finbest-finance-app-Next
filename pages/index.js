@@ -13,12 +13,19 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Finbest</title>
-          <meta name="description" content="Description of the website" />
-          <meta property="og:title" content="Finbest" />
+          <title>Sabedoria jovem</title>
+          <meta
+            name="description"
+            content="Conteúdos para despertar a sua sabedoria "
+          />
+          <meta property="og:title" content="Sabedoria jovem" />
           <meta
             property="og:description"
-            content="Description of the website"
+            content="Conteúdos para despertar a sua sabedoria "
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/efe827c1-d4d7-401d-9f02-342bd2a4fbd8/b75a982b-6588-4b93-9ea1-fb03628628b8?org_if_sml=1"
           />
         </Head>
         <div className="home-header">
