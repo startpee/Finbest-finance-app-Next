@@ -352,7 +352,7 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 435px;
+              width: 320px;
               height: 1000px;
               margin-right: 0px;
               padding-left: 28px;
