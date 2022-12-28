@@ -101,6 +101,14 @@ const Navbar = (props) => {
                   <span className="navbar-text1">{props.text1311}</span>
                 </div>
               </a>
+              <a
+                href="https://blog.sabedoriajovem.site/"
+                className="navbar-link10"
+              >
+                <div className="navbar-btn2">
+                  <span className="navbar-text2">{props.text13111}</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -325,6 +333,24 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
+          .navbar-link10 {
+            display: contents;
+          }
+          .navbar-btn2 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            border-radius: var(--dl-radius-radius-radius8);
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #ade2df;
+          }
+          .navbar-text2 {
+            font-style: normal;
+            font-weight: 500;
+          }
           @media (max-width: 991px) {
             .navbar-navbar {
               align-items: center;
@@ -362,6 +388,7 @@ closeButton.addEventListener("click", function() {
               padding-right: 28px;
             }
             .navbar-links1 {
+              display: none;
               align-self: center;
             }
             .navbar-link05 {
@@ -395,6 +422,7 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/sabedoria-1500h.png',
   Branding_alt: 'pastedImage',
   text11: 'Conselhos para jovens',
+  text13111: 'Blog',
 }
 
 Navbar.propTypes = {
@@ -412,6 +440,7 @@ Navbar.propTypes = {
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
   text11: PropTypes.string,
+  text13111: PropTypes.string,
 }
 
 export default Navbar
