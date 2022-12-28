@@ -46,14 +46,14 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-oy26-1000h.png"
+                  src="/playground_assets/pastedimage-oy26-800h.png"
                   className="home-pasted-image"
                 />
               </div>
               <div className="home-column1">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-5cga-1000h.png"
+                  src="/playground_assets/pastedimage-5cga-800h.png"
                   className="home-pasted-image1"
                 />
                 <img
@@ -1319,7 +1319,7 @@ const Home = (props) => {
             .home-images {
               width: 360px;
               bottom: -300px;
-              height: 929px;
+              height: 716px;
               margin: var(--dl-space-space-oneandhalfunits);
             }
             .home-pasted-image {
